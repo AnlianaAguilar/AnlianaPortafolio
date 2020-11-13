@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout } from '../componets/Layout';
 import '../index.css'
-import FotoAnliana from '../img/FotoAnliana.jpeg'
+import FotoAnlianaAguilar from '../img/FotoAnlianaAguilar.png'
 
 export const HomePage = () => {
   return (
@@ -9,7 +9,7 @@ export const HomePage = () => {
       <div className="contenedor">
         <div className='hijo'> 
           <p className='nameHome'>ANLIANA AGUILAR</p>
-          <img  src={FotoAnliana} alt="Foto" />
+          <img className='FotoInicio'  src={FotoAnlianaAguilar} alt="Foto" />
         </div>
       
         <div className="hijo">

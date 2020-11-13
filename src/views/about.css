@@ -1,0 +1,149 @@
+.Contenedor1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.proyec{
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.labelA{
+  display: inline;
+  text-align: center;
+  padding: 30px;
+  flex: 1 1 auto;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.imgCardValidation{
+  width: 550px;
+  height: 330px;
+  border: 0.2em solid grey;
+  border-radius: 8px;
+}
+
+.imgDataLovers{
+  width: 550px;
+  height: 330px;
+  border: 0.2em solid grey;
+  border-radius: 8px;
+}
+
+.imgBurgerQueen{
+  width: 550px;
+  height: 330px;
+  border: 0.2em solid grey;
+  border-radius: 8px;
+}
+
+.imgRedSocial{
+  width: 550px;
+  height: 330px;
+  border: 0.2em solid grey;
+  border-radius: 8px;
+}
+
+
+
+.imgHootiehoo{
+  width: 550px;
+  height: 330px;
+  border: 0.2em solid grey;
+  border-radius: 8px;
+}
+
+a {
+  padding-left: 20px;
+  color: rgb(90, 89, 89);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+.tituleH1{
+  text-align: center;
+}
+
+.Iconos{
+  
+  text-align: center;
+
+}
+
+i{
+  color: rgb(90, 89, 89);
+  font-size: 65PX;
+  padding: 15px;
+}
+
+.skill{
+  text-align: center;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px
+}
+
+
+@media only screen and (max-device-width: 570px) {
+
+  .imgCardValidation{
+    width: 300px;
+    height: 200px;
+    border: 0.2em solid grey;
+    border-radius: 8px;
+  }
+  
+  .imgDataLovers{
+    width: 300px;
+    height: 200px;
+    border: 0.2em solid grey;
+    border-radius: 8px;
+  }
+  
+  .imgBurgerQueen{
+    width: 300px;
+    height: 200px;
+    border: 0.2em solid grey;
+    border-radius: 8px;
+  }
+  
+  .imgRedSocial{
+    width: 300px;
+    height: 200px;
+    border: 0.2em solid grey;
+    border-radius: 8px;
+  }
+      
+  .imgHootiehoo{
+    width: 300px;
+    height: 200px;
+    border: 0.2em solid grey;
+    border-radius: 8px;
+  }
+
+  i{
+    color: rgb(90, 89, 89);
+    font-size: 50PX;
+    padding: 10px;
+  }
+
+  .skill{
+    padding: 10px; 
+    font-size: 15px
+  }
+
+}
+
+

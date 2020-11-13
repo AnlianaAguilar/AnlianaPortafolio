@@ -1,9 +1,15 @@
 .information {  padding: 30px;
   flex-direction: column;
-  align-items: center;
+ 
   display: flex;
-  justify-content: center;
-  line-height:75px;  }
+  
+  line-height:75px;
+  text-align: center;  
+}
+  
+
+
+
   
 .fa-envelope-open-text{
   color:#575757;
